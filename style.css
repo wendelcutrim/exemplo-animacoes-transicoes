@@ -35,6 +35,12 @@ header nav a {
     padding: 10px;
 }
 
+header nav a:hover{
+    border-bottom: 3px solid yellow;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+
 .div-animacao {
     margin-top: 30px;
     display: flex;
@@ -49,7 +55,74 @@ header nav a {
     width: 100px;
     height: 100px;
     background-color: black;
+    animation-name: mudarDeCor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
+
+.animada:hover {
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+    transition: all 2s;
+    animation-name: mudarDeCorNoHover;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+/* Animação de carregamento*/
+
+.carregando {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.carregando div {
+    display: flex;
+    flex-direction: row;
+}
+
+.carregando h1 {
+   margin: 3rem 0;
+}
+
+.circulo {
+    margin: 0 2rem 0 0;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    /*Animações */
+    animation-name: pular;
+    animation-duration: 0.5s;
+    animation-delay: alternate;
+    animation-iteration-count: infinite;
+}
+
+.circulo:nth-child(2){
+    animation-delay: 0.16s;
+}
+
+.circulo:nth-child(3){
+    animation-delay: 0.32s
+}
+
+@keyframes pular {
+    from {
+        transform: scaleX(1.25)
+    }
+    to {
+        transform:
+        translateY(-50px) scaleX(1) ;
+    }
+}
+
+/* Fim animação de carregamento */
+
 
 section {
     display: flex;
@@ -57,6 +130,7 @@ section {
     width: 100%;
     justify-content: center;
     align-items: center;
+    height: 100vw; /*Mudar aqui quando fazer a de carregamento*/
 }
 
 form {
@@ -76,6 +150,20 @@ form input {
     border: 1px solid black
 }
 
+form input:hover {
+    border: 3px solid green;
+    transition: 0.5s;
+}
+
+
+form input:focus {
+    border: 5px solid blue;
+    background-color: lightgray;
+    color: red;
+    padding: 15px;
+    transition: 3s;
+}
+
 form textarea {
     width: 100%;
 }
@@ -83,4 +171,49 @@ form textarea {
 form button {
     padding: 10px;
     width: 100%;
+}
+
+form button:hover {
+    padding: 20px;
+    background-color: lightskyblue;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    transition: 2s;
+}
+
+
+@keyframes mudarDeCor {
+    0% {
+        background-color: white;
+        border: 2px solid black;
+    }
+
+    25% {
+        background-color: green
+    }
+
+    50% {
+        background-color: blueviolet;
+    }
+
+    100% {
+        background-color: brown;
+    }
+}
+
+@keyframes mudarDeCorNoHover {
+    0% {
+        background-color: blue
+    }
+
+    50% {
+        background-color: red
+    }
+
+    100% {
+        background-color: yellow
+    }
 }
