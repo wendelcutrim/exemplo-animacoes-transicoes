@@ -67,7 +67,7 @@ form {
 form label {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 18px;
 }
 
 form input {
@@ -84,7 +84,7 @@ form textarea {
 }
 
 form button {
-    margin: 12px 0;
+    margin: 10px 0;
     padding: 10px;
     width: 100%;
     border-radius: 7px;
