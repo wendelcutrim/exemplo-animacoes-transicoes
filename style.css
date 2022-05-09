@@ -146,7 +146,8 @@ form label {
 form input {
     margin-top: 5px;
     padding: 10px;
-    border: 1px solid black
+    border: 1px solid black;
+    border-radius: 7px;
 }
 
 form input:hover {
@@ -165,11 +166,14 @@ form input:focus {
 
 form textarea {
     width: 100%;
+    border-radius: 7px;
 }
 
 form button {
     padding: 10px;
     width: 100%;
+    border-radius: 7px;
+    border: none;
 }
 
 form button:hover {
@@ -178,7 +182,6 @@ form button:hover {
     color: black;
     font-weight: bold;
     border: none;
-    border-radius: 7px;
     width: 100%;
     transition: 2s;
 }
