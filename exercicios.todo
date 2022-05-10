@@ -1,9 +1,56 @@
-Aplicar hover nos inputs do formulário com as seguintes propriedades:
-  ✔ -Borda: 3Px @done(22-05-09 20:39)
-  ✔ -Cor da borda: Verde @done(22-05-09 20:39)
-  ✔ -Estilo da borda: solido @done(22-05-09 20:39)
+Aplicar uma transição nos links da navbar do header para que após tirar o mouse de cima dos links e desabilitar o hover, a transição para os links voltar ao normal seja suave e não instântanea:
+  ☐ Para isso, podemos utilizar a pseudo classe :not()
+  ☐ Aplicar um delau de 0.7s
+  ☐ Tempo da transição 3s.
 
 Aplicar hover no botão do formulário com as seguintes propriedade:
-  ✔ -Aumentar o seu tamanho interno para 20px @done(22-05-09 21:31)
-  ✔ -Alterar a cor do fundo para: lightskyblue @done(22-05-09 21:31)
-  ✔ -Alterar a cor da fonte para preto e em negrito @done(22-05-09 21:31)
+  ☐ -Aumentar o seu tamanho interno para 20px
+  ☐ -Alterar a cor do fundo para: lightskyblue
+  ☐ -Alterar a cor da fonte para preto e em negrito
+
+Aplicar hover nos inputs do formulário com as seguintes propriedades:
+  ☐ -Borda: 3Px
+  ☐ -Cor da borda: Verde
+  ☐ -Estilo da borda: solido
+
+Aplicar nos inputs do fomrulário a pseudo classe :focus com as seguintes propriedades:
+  ☐ Borda: 5px soida azul
+  ☐ Cor de fundo: lightray
+  ☐ Cor da fonte: Vermelho
+  ☐ Espaçamento interno: 20px
+  ☐ Tempo de transição: 1s
+
+Criar uma animação com o nome: mudarDeCor, essa animação deve possuir 4 etapas:
+  ☐ Criar animação: mudarDeCor
+  ☐ Criar as estapadas da animação:
+    ☐ 1º Fase: Cor de fundo branca e borda de 2px solida na cor preto
+    ☐ 2º Fase: Cor de fundo verde
+    ☐ 3º Fase: Cor de fundo blueviolet
+    ☐ 4º Fase: Cor de fundo brown
+
+Aplicar a animação mudarDeCor na classe .animada com os seguintes atributos:
+  ☐ Duração: 5s
+  ☐ Quantidade de iterações: infinita
+
+Criar um hover para a classe animada para fazer com que quando o mouse estiver em cima div que está aplicada essa classe, ela aumente o seu tamanho e altere o formato de quadrado para um círculo de maneira suave:
+  ☐ Tamanho: 150px
+  ☐ Largura: 150px
+  ☐ Tempo de transição 0.5s
+
+Criar uma animação com o nome: mudarDeCorNoHover, essa animação deve possuir 3 etapas:
+  ☐ Criar animação: mudarDeCorNoHover
+  ☐ Criar as estapadas da animação:
+    ☐ 1º Fase: Cor de fundo azul
+    ☐ 2º Fase: Cor de fundo vermelho
+    ☐ 3º Fase: Cor de fundo amarelo
+
+Aplicar a animação mudarDeCorNoHover na classe .animada com oa pseudo classe hover aplicar os seguintes atributos:
+  ☐ Duração: 0.5s
+  ☐ Quantidade de iterações: infinita
+
+
+
+
+
+  
+  
