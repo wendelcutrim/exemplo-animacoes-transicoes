@@ -35,6 +35,12 @@ header nav a {
     padding: 10px;
 }
 
+header nav a:hover {
+    border-bottom: 3px solid yellow;
+    font-size: 30px;
+    transition: all 3s;
+}
+
 .div-animacao {
     margin-top: 20px;
     display: flex;
@@ -44,11 +50,55 @@ header nav a {
     width: 100%;
 }
 
+@keyframes mudarDeCor {
+    0%{
+        background-color: white;
+        border: 2px solid black;
+    }
+    25%{
+        background-color: green
+    }
+    50%{
+        background-color: blueviolet;
+    }
+    100%{
+        background-color: brown;
+    }
+}
+
 .animada {
     margin: 0 10px 0 0;
     width: 100px;
     height: 100px;
     background-color: black;
+    animation-name: mudarDeCor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes mudarDeCorNoHover {
+    0%{
+        background-color: blue;
+    }
+
+    50%{
+        background-color: red;
+    }
+    
+    100%{
+        background-color: yellow;
+    }
+}
+
+.animada:hover{
+    height:150px;
+    width: 150px;
+    border-radius: 80px;
+    transition: all 2s;
+    animation-name: mudarDeCorNoHover;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
 }
 
 section {
@@ -77,6 +127,19 @@ form input {
     border-radius: 7px;
 }
 
+form input:hover {
+    border: 3px green solid;
+    transition: 0.5s;
+}
+
+form input:focus {
+    border: 5px solid blue;
+    background-color:lightgray;
+    color: red;
+    padding: 20px;
+    transition: all 1s;
+}
+
 form textarea {
     width: 100%;
     border-radius: 7px;
@@ -92,4 +155,12 @@ form button {
     background-color: rgb(228, 227, 227);
     font-weight: bold;
     text-transform: uppercase;
+}
+
+form button:hover {
+    padding: 20px;
+    background-color: lightskyblue;
+    font-weight: bold;
+    color: white;
+    transition: all 1s
 }
