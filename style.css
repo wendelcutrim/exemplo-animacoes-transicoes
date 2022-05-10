@@ -41,6 +41,11 @@ header nav a:hover {
     transition: all 3s;
 }
 
+header nav a:not(:hover){
+    transition-delay: 0.7s;
+    transition: 2s
+}
+
 .div-animacao {
     margin-top: 20px;
     display: flex;
@@ -130,6 +135,11 @@ form input {
 form input:hover {
     border: 3px green solid;
     transition: 0.5s;
+}
+
+form input:not(:hover){
+    transition-delay: 0.3s;
+    transition: 1s
 }
 
 form input:focus {

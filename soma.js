@@ -2,4 +2,6 @@ function somar(x, y) {
     return x+y
 }
 
-console.log(somar(2,2))
+let result = somar(2,2)
+
+console.log(result)

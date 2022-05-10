@@ -1,9 +1,9 @@
 Aplicar hover nos inputs do formulário com as seguintes propriedades:
-  ☐ -Borda: 3Px
-  ☐ -Cor da borda: Verde
-  ☐ -Estilo da borda: solido
+  ✔ -Borda: 3Px @done(22-05-09 20:39)
+  ✔ -Cor da borda: Verde @done(22-05-09 20:39)
+  ✔ -Estilo da borda: solido @done(22-05-09 20:39)
 
 Aplicar hover no botão do formulário com as seguintes propriedade:
-  ☐ -Aumentar o seu tamanho interno para 20px
-  ☐ -Alterar a cor do fundo para: lightskyblue
-  ☐ -Alterar a cor da fonte para preto e em negrito
+  ✔ -Aumentar o seu tamanho interno para 20px @done(22-05-09 21:31)
+  ✔ -Alterar a cor do fundo para: lightskyblue @done(22-05-09 21:31)
+  ✔ -Alterar a cor da fonte para preto e em negrito @done(22-05-09 21:31)
