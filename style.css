@@ -153,7 +153,8 @@ form input:focus {
 form textarea {
     width: 100%;
     border-radius: 7px;
-    padding: 5px;
+    padding: 10px;
+    resize: none;
 }
 
 form button {
